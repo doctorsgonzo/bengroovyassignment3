@@ -1,0 +1,23 @@
+<plugin name='authentication' version='2.0.1' grailsVersion='1.1 &gt; *'>
+  <author>Marc Palmer</author>
+  <authorEmail>marc@anyware.co.uk</authorEmail>
+  <title>Simple, extensible authentication services with signup support</title>
+  <description>
+Simple authentication mechanisms with signup and authorisation hooks and DB abstraction, all handled with
+events.
+</description>
+  <documentation>http://grails.org/plugin/authentication</documentation>
+  <resources>
+    <resource>AuthenticationUrlMappings</resource>
+    <resource>com.grailsrocks.authentication.AuthenticationController</resource>
+    <resource>com.grailsrocks.authentication.AuthenticationUser</resource>
+    <resource>com.grailsrocks.authentication.AuthenticationService</resource>
+    <resource>com.grailsrocks.authentication.AuthenticationTagLib</resource>
+  </resources>
+  <dependencies>
+    <resolvers>
+      <resolver type='grailsPlugins' name='grailsPlugins' />
+    </resolvers>
+  </dependencies>
+  <behavior />
+</plugin>

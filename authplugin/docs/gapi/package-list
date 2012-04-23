@@ -1,0 +1,9 @@
+DefaultPackage
+grails-app.conf
+grails-app.controllers.com.grailsrocks.authentication
+grails-app.domain.com.grailsrocks.authentication
+grails-app.services.com.grailsrocks.authentication
+grails-app.taglib.com.grailsrocks.authentication
+src.groovy.com.grailsrocks.authentication
+test.integration
+test.unit
