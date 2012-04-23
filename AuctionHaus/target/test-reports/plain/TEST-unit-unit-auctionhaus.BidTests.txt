@@ -1,0 +1,19 @@
+Testsuite: auctionhaus.BidTests
+Tests run: 7, Failures: 0, Errors: 0, Time elapsed: 0.421 sec
+------------- Standard Error -----------------
+--Output from testBidNullFieldsCauseError--
+--Output from testBidNonNullFieldsOK--
+--Output from testBidListingNullCausesError--
+--Output from testBidListingNonNullOK--
+--Output from testBidBidderNullCausesError--
+--Output from testBidBidderNonNullOK--
+--Output from testListingHasListOfBids--
+------------- ---------------- ---------------
+
+Testcase: testBidNullFieldsCauseError took 0.146 sec
+Testcase: testBidNonNullFieldsOK took 0.024 sec
+Testcase: testBidListingNullCausesError took 0.019 sec
+Testcase: testBidListingNonNullOK took 0.021 sec
+Testcase: testBidBidderNullCausesError took 0.029 sec
+Testcase: testBidBidderNonNullOK took 0.025 sec
+Testcase: testListingHasListOfBids took 0.057 sec

@@ -1,0 +1,12 @@
+--Output from testBidBidderNonNullOK--
+--Output from testRequiredListingFieldsMissingCauseError--
+--Output from testRequiredListingFieldsOK--
+--Output from testOptionalListingDescriptionFieldOK--
+--Output from testListingSellerNullCausesError--
+--Output from testListingDescriptionFieldOK--
+--Output from testListingDescriptionFieldOversizeError--
+--Output from testListingEndDateTimeInFutureOK--
+--Output from testListingEndDateTimeInPastCausesError--
+--Output from testListingNameFieldOK--
+--Output from testListingNameFieldOversizeErrors--
+--Output from testOptionalWinnerFieldOK--

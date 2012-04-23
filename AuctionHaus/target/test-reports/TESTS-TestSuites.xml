@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Hennepins-MacBook-Pro.local" id="0" name="AdministratorFilterFiltersTests" package="auctionhaus" tests="1" time="1.114" timestamp="2012-04-23T04:26:13">
+      <properties />
+
+      <testcase classname="auctionhaus.AdministratorFilterFiltersTests" name="testSomething" time="0.917" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Hennepins-MacBook-Pro.local" id="1" name="BidControllerTests" package="auctionhaus" tests="8" time="1.681" timestamp="2012-04-23T04:26:14">
+      <properties />
+
+      <testcase classname="auctionhaus.BidControllerTests" name="testList" time="0.748" />
+
+      <testcase classname="auctionhaus.BidControllerTests" name="testIndex" time="0.158" />
+
+      <testcase classname="auctionhaus.BidControllerTests" name="testCreate" time="0.083" />
+
+      <testcase classname="auctionhaus.BidControllerTests" name="testSave" time="0.196" />
+
+      <testcase classname="auctionhaus.BidControllerTests" name="testShow" time="0.151" />
+
+      <testcase classname="auctionhaus.BidControllerTests" name="testEdit" time="0.077" />
+
+      <testcase classname="auctionhaus.BidControllerTests" name="testUpdate" time="0.107" />
+
+      <testcase classname="auctionhaus.BidControllerTests" name="testDelete" time="0.087" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[--Output from testList--
+--Output from testIndex--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Hennepins-MacBook-Pro.local" id="2" name="BidServiceTests" package="auctionhaus" tests="3" time="0.225" timestamp="2012-04-23T04:26:16">
+      <properties />
+
+      <testcase classname="auctionhaus.BidServiceTests" name="testBidCreateFailsWithoutValidParameters" time="0.11" />
+
+      <testcase classname="auctionhaus.BidServiceTests" name="testBidCreateSucceedsWithValidParameters" time="0.024" />
+
+      <testcase classname="auctionhaus.BidServiceTests" name="testBidCreateFailsWithExpiredListing" time="0.018" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[--Output from testBidCreateFailsWithoutValidParameters--
+--Output from testBidCreateSucceedsWithValidParameters--
+--Output from testBidCreateFailsWithExpiredListing--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Hennepins-MacBook-Pro.local" id="3" name="BidTests" package="auctionhaus" tests="7" time="0.421" timestamp="2012-04-23T04:26:16">
+      <properties />
+
+      <testcase classname="auctionhaus.BidTests" name="testBidNullFieldsCauseError" time="0.146" />
+
+      <testcase classname="auctionhaus.BidTests" name="testBidNonNullFieldsOK" time="0.024" />
+
+      <testcase classname="auctionhaus.BidTests" name="testBidListingNullCausesError" time="0.019" />
+
+      <testcase classname="auctionhaus.BidTests" name="testBidListingNonNullOK" time="0.021" />
+
+      <testcase classname="auctionhaus.BidTests" name="testBidBidderNullCausesError" time="0.029" />
+
+      <testcase classname="auctionhaus.BidTests" name="testBidBidderNonNullOK" time="0.025" />
+
+      <testcase classname="auctionhaus.BidTests" name="testListingHasListOfBids" time="0.057" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[--Output from testBidNullFieldsCauseError--
+--Output from testBidNonNullFieldsOK--
+--Output from testBidListingNullCausesError--
+--Output from testBidListingNonNullOK--
+--Output from testBidBidderNullCausesError--
+--Output from testBidBidderNonNullOK--
+--Output from testListingHasListOfBids--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Hennepins-MacBook-Pro.local" id="4" name="CustomerControllerTests" package="auctionhaus" tests="10" time="0.918" timestamp="2012-04-23T04:26:16">
+      <properties />
+
+      <testcase classname="auctionhaus.CustomerControllerTests" name="testList" time="0.205" />
+
+      <testcase classname="auctionhaus.CustomerControllerTests" name="testIndex" time="0.065" />
+
+      <testcase classname="auctionhaus.CustomerControllerTests" name="testCreate" time="0.048" />
+
+      <testcase classname="auctionhaus.CustomerControllerTests" name="testSave" time="0.14" />
+
+      <testcase classname="auctionhaus.CustomerControllerTests" name="testShow" time="0.064" />
+
+      <testcase classname="auctionhaus.CustomerControllerTests" name="testEdit" time="0.052" />
+
+      <testcase classname="auctionhaus.CustomerControllerTests" name="testUpdate" time="0.069" />
+
+      <testcase classname="auctionhaus.CustomerControllerTests" name="testDeleteSucceedsForCustomerWithZeroBidsAndZeroListings" time="0.066" />
+
+      <testcase classname="auctionhaus.CustomerControllerTests" name="testDeleteFailsForCustomerWithBids" time="0.075" />
+
+      <testcase classname="auctionhaus.CustomerControllerTests" name="testDeleteFailsForCustomerWithListing" time="0.063" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[--Output from testList--
+--Output from testIndex--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDeleteSucceedsForCustomerWithZeroBidsAndZeroListings--
+--Output from testDeleteFailsForCustomerWithBids--
+--Output from testDeleteFailsForCustomerWithListing--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Hennepins-MacBook-Pro.local" id="5" name="CustomerServiceTests" package="auctionhaus" tests="2" time="0.162" timestamp="2012-04-23T04:26:17">
+      <properties />
+
+      <testcase classname="auctionhaus.CustomerServiceTests" name="testCustomerCreateFailsWithoutValidParameters" time="0.066" />
+
+      <testcase classname="auctionhaus.CustomerServiceTests" name="testCustomerCreateSucceedsWithValidParameters" time="0.043" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[--Output from testCustomerCreateFailsWithoutValidParameters--
+--Output from testCustomerCreateSucceedsWithValidParameters--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Hennepins-MacBook-Pro.local" id="6" name="CustomerTests" package="auctionhaus" tests="5" time="0.215" timestamp="2012-04-23T04:26:18">
+      <properties />
+
+      <testcase classname="auctionhaus.CustomerTests" name="testCustomerNullFieldsCauseError" time="0.071" />
+
+      <testcase classname="auctionhaus.CustomerTests" name="testCustomerNonNullFieldsOK" time="0.015" />
+
+      <testcase classname="auctionhaus.CustomerTests" name="testCustomerEmailOK" time="0.016" />
+
+      <testcase classname="auctionhaus.CustomerTests" name="testCustomerEmailError" time="0.014" />
+
+      <testcase classname="auctionhaus.CustomerTests" name="testCustomerPasswordOK" time="0.015" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[--Output from testCustomerNullFieldsCauseError--
+--Output from testCustomerNonNullFieldsOK--
+--Output from testCustomerEmailOK--
+--Output from testCustomerEmailError--
+--Output from testCustomerPasswordOK--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Hennepins-MacBook-Pro.local" id="7" name="ListingControllerTests" package="auctionhaus" tests="8" time="0.617" timestamp="2012-04-23T04:26:18">
+      <properties />
+
+      <testcase classname="auctionhaus.ListingControllerTests" name="testList" time="0.193" />
+
+      <testcase classname="auctionhaus.ListingControllerTests" name="testIndex" time="0.059" />
+
+      <testcase classname="auctionhaus.ListingControllerTests" name="testCreate" time="0.039" />
+
+      <testcase classname="auctionhaus.ListingControllerTests" name="testSave" time="0.065" />
+
+      <testcase classname="auctionhaus.ListingControllerTests" name="testShow" time="0.047" />
+
+      <testcase classname="auctionhaus.ListingControllerTests" name="testEdit" time="0.044" />
+
+      <testcase classname="auctionhaus.ListingControllerTests" name="testUpdate" time="0.057" />
+
+      <testcase classname="auctionhaus.ListingControllerTests" name="testDelete" time="0.051" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[--Output from testList--
+--Output from testIndex--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Hennepins-MacBook-Pro.local" id="8" name="ListingServiceTests" package="auctionhaus" tests="2" time="0.136" timestamp="2012-04-23T04:26:18">
+      <properties />
+
+      <testcase classname="auctionhaus.ListingServiceTests" name="testCustomerCreateFailsWithoutValidParameters" time="0.069" />
+
+      <testcase classname="auctionhaus.ListingServiceTests" name="testCustomerCreateSucceedsWithValidParameters" time="0.018" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[--Output from testCustomerCreateFailsWithoutValidParameters--
+--Output from testCustomerCreateSucceedsWithValidParameters--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Hennepins-MacBook-Pro.local" id="9" name="ListingTests" package="auctionhaus" tests="12" time="0.211" timestamp="2012-04-23T04:26:19">
+      <properties />
+
+      <testcase classname="auctionhaus.ListingTests" name="testBidBidderNonNullOK" time="0.065" />
+
+      <testcase classname="auctionhaus.ListingTests" name="testRequiredListingFieldsMissingCauseError" time="0.013" />
+
+      <testcase classname="auctionhaus.ListingTests" name="testRequiredListingFieldsOK" time="0.012" />
+
+      <testcase classname="auctionhaus.ListingTests" name="testOptionalListingDescriptionFieldOK" time="0.012" />
+
+      <testcase classname="auctionhaus.ListingTests" name="testListingSellerNullCausesError" time="0.014" />
+
+      <testcase classname="auctionhaus.ListingTests" name="testListingDescriptionFieldOK" time="0.011" />
+
+      <testcase classname="auctionhaus.ListingTests" name="testListingDescriptionFieldOversizeError" time="0.013" />
+
+      <testcase classname="auctionhaus.ListingTests" name="testListingEndDateTimeInFutureOK" time="0.012" />
+
+      <testcase classname="auctionhaus.ListingTests" name="testListingEndDateTimeInPastCausesError" time="0.015" />
+
+      <testcase classname="auctionhaus.ListingTests" name="testListingNameFieldOK" time="0.013" />
+
+      <testcase classname="auctionhaus.ListingTests" name="testListingNameFieldOversizeErrors" time="0.013" />
+
+      <testcase classname="auctionhaus.ListingTests" name="testOptionalWinnerFieldOK" time="0.012" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[--Output from testBidBidderNonNullOK--
+--Output from testRequiredListingFieldsMissingCauseError--
+--Output from testRequiredListingFieldsOK--
+--Output from testOptionalListingDescriptionFieldOK--
+--Output from testListingSellerNullCausesError--
+--Output from testListingDescriptionFieldOK--
+--Output from testListingDescriptionFieldOversizeError--
+--Output from testListingEndDateTimeInFutureOK--
+--Output from testListingEndDateTimeInPastCausesError--
+--Output from testListingNameFieldOK--
+--Output from testListingNameFieldOversizeErrors--
+--Output from testOptionalWinnerFieldOK--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

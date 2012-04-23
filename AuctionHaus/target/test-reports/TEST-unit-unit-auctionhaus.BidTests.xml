@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Hennepins-MacBook-Pro.local" name="auctionhaus.BidTests" tests="7" time="0.421" timestamp="2012-04-23T04:26:16">
+  <properties />
+  <testcase classname="auctionhaus.BidTests" name="testBidNullFieldsCauseError" time="0.146" />
+  <testcase classname="auctionhaus.BidTests" name="testBidNonNullFieldsOK" time="0.024" />
+  <testcase classname="auctionhaus.BidTests" name="testBidListingNullCausesError" time="0.019" />
+  <testcase classname="auctionhaus.BidTests" name="testBidListingNonNullOK" time="0.021" />
+  <testcase classname="auctionhaus.BidTests" name="testBidBidderNullCausesError" time="0.029" />
+  <testcase classname="auctionhaus.BidTests" name="testBidBidderNonNullOK" time="0.025" />
+  <testcase classname="auctionhaus.BidTests" name="testListingHasListOfBids" time="0.057" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[--Output from testBidNullFieldsCauseError--
+--Output from testBidNonNullFieldsOK--
+--Output from testBidListingNullCausesError--
+--Output from testBidListingNonNullOK--
+--Output from testBidBidderNullCausesError--
+--Output from testBidBidderNonNullOK--
+--Output from testListingHasListOfBids--
+]]></system-err>
+</testsuite>

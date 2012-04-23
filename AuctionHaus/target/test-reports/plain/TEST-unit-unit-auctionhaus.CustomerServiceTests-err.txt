@@ -1,0 +1,2 @@
+--Output from testCustomerCreateFailsWithoutValidParameters--
+--Output from testCustomerCreateSucceedsWithValidParameters--

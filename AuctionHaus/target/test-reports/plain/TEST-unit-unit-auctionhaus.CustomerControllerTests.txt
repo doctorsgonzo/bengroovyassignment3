@@ -1,0 +1,25 @@
+Testsuite: auctionhaus.CustomerControllerTests
+Tests run: 10, Failures: 0, Errors: 0, Time elapsed: 0.918 sec
+------------- Standard Error -----------------
+--Output from testList--
+--Output from testIndex--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDeleteSucceedsForCustomerWithZeroBidsAndZeroListings--
+--Output from testDeleteFailsForCustomerWithBids--
+--Output from testDeleteFailsForCustomerWithListing--
+------------- ---------------- ---------------
+
+Testcase: testList took 0.205 sec
+Testcase: testIndex took 0.065 sec
+Testcase: testCreate took 0.048 sec
+Testcase: testSave took 0.14 sec
+Testcase: testShow took 0.064 sec
+Testcase: testEdit took 0.052 sec
+Testcase: testUpdate took 0.069 sec
+Testcase: testDeleteSucceedsForCustomerWithZeroBidsAndZeroListings took 0.066 sec
+Testcase: testDeleteFailsForCustomerWithBids took 0.075 sec
+Testcase: testDeleteFailsForCustomerWithListing took 0.063 sec

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Hennepins-MacBook-Pro.local" name="auctionhaus.AdministratorFilterFiltersTests" tests="1" time="1.114" timestamp="2012-04-23T04:26:13">
+  <properties />
+  <testcase classname="auctionhaus.AdministratorFilterFiltersTests" name="testSomething" time="0.917" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+</testsuite>

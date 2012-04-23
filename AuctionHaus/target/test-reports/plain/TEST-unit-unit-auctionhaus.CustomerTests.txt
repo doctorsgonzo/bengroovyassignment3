@@ -1,0 +1,15 @@
+Testsuite: auctionhaus.CustomerTests
+Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 0.215 sec
+------------- Standard Error -----------------
+--Output from testCustomerNullFieldsCauseError--
+--Output from testCustomerNonNullFieldsOK--
+--Output from testCustomerEmailOK--
+--Output from testCustomerEmailError--
+--Output from testCustomerPasswordOK--
+------------- ---------------- ---------------
+
+Testcase: testCustomerNullFieldsCauseError took 0.071 sec
+Testcase: testCustomerNonNullFieldsOK took 0.015 sec
+Testcase: testCustomerEmailOK took 0.016 sec
+Testcase: testCustomerEmailError took 0.014 sec
+Testcase: testCustomerPasswordOK took 0.015 sec

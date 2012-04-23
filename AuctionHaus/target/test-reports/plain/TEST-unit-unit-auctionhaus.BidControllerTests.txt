@@ -1,0 +1,21 @@
+Testsuite: auctionhaus.BidControllerTests
+Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 1.681 sec
+------------- Standard Error -----------------
+--Output from testList--
+--Output from testIndex--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+
+Testcase: testList took 0.748 sec
+Testcase: testIndex took 0.158 sec
+Testcase: testCreate took 0.083 sec
+Testcase: testSave took 0.196 sec
+Testcase: testShow took 0.151 sec
+Testcase: testEdit took 0.077 sec
+Testcase: testUpdate took 0.107 sec
+Testcase: testDelete took 0.087 sec

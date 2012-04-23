@@ -1,0 +1,21 @@
+Testsuite: auctionhaus.ListingControllerTests
+Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 0.617 sec
+------------- Standard Error -----------------
+--Output from testList--
+--Output from testIndex--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+
+Testcase: testList took 0.193 sec
+Testcase: testIndex took 0.059 sec
+Testcase: testCreate took 0.039 sec
+Testcase: testSave took 0.065 sec
+Testcase: testShow took 0.047 sec
+Testcase: testEdit took 0.044 sec
+Testcase: testUpdate took 0.057 sec
+Testcase: testDelete took 0.051 sec

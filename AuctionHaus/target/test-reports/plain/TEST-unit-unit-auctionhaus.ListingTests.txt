@@ -1,0 +1,29 @@
+Testsuite: auctionhaus.ListingTests
+Tests run: 12, Failures: 0, Errors: 0, Time elapsed: 0.211 sec
+------------- Standard Error -----------------
+--Output from testBidBidderNonNullOK--
+--Output from testRequiredListingFieldsMissingCauseError--
+--Output from testRequiredListingFieldsOK--
+--Output from testOptionalListingDescriptionFieldOK--
+--Output from testListingSellerNullCausesError--
+--Output from testListingDescriptionFieldOK--
+--Output from testListingDescriptionFieldOversizeError--
+--Output from testListingEndDateTimeInFutureOK--
+--Output from testListingEndDateTimeInPastCausesError--
+--Output from testListingNameFieldOK--
+--Output from testListingNameFieldOversizeErrors--
+--Output from testOptionalWinnerFieldOK--
+------------- ---------------- ---------------
+
+Testcase: testBidBidderNonNullOK took 0.065 sec
+Testcase: testRequiredListingFieldsMissingCauseError took 0.013 sec
+Testcase: testRequiredListingFieldsOK took 0.012 sec
+Testcase: testOptionalListingDescriptionFieldOK took 0.012 sec
+Testcase: testListingSellerNullCausesError took 0.014 sec
+Testcase: testListingDescriptionFieldOK took 0.012 sec
+Testcase: testListingDescriptionFieldOversizeError took 0.013 sec
+Testcase: testListingEndDateTimeInFutureOK took 0.012 sec
+Testcase: testListingEndDateTimeInPastCausesError took 0.015 sec
+Testcase: testListingNameFieldOK took 0.013 sec
+Testcase: testListingNameFieldOversizeErrors took 0.013 sec
+Testcase: testOptionalWinnerFieldOK took 0.012 sec

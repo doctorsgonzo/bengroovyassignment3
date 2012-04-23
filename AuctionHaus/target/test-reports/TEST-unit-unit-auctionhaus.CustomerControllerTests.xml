@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Hennepins-MacBook-Pro.local" name="auctionhaus.CustomerControllerTests" tests="10" time="0.918" timestamp="2012-04-23T04:26:16">
+  <properties />
+  <testcase classname="auctionhaus.CustomerControllerTests" name="testList" time="0.205" />
+  <testcase classname="auctionhaus.CustomerControllerTests" name="testIndex" time="0.065" />
+  <testcase classname="auctionhaus.CustomerControllerTests" name="testCreate" time="0.048" />
+  <testcase classname="auctionhaus.CustomerControllerTests" name="testSave" time="0.14" />
+  <testcase classname="auctionhaus.CustomerControllerTests" name="testShow" time="0.064" />
+  <testcase classname="auctionhaus.CustomerControllerTests" name="testEdit" time="0.052" />
+  <testcase classname="auctionhaus.CustomerControllerTests" name="testUpdate" time="0.069" />
+  <testcase classname="auctionhaus.CustomerControllerTests" name="testDeleteSucceedsForCustomerWithZeroBidsAndZeroListings" time="0.066" />
+  <testcase classname="auctionhaus.CustomerControllerTests" name="testDeleteFailsForCustomerWithBids" time="0.075" />
+  <testcase classname="auctionhaus.CustomerControllerTests" name="testDeleteFailsForCustomerWithListing" time="0.063" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[--Output from testList--
+--Output from testIndex--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDeleteSucceedsForCustomerWithZeroBidsAndZeroListings--
+--Output from testDeleteFailsForCustomerWithBids--
+--Output from testDeleteFailsForCustomerWithListing--
+]]></system-err>
+</testsuite>

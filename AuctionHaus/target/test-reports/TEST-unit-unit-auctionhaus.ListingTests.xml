@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Hennepins-MacBook-Pro.local" name="auctionhaus.ListingTests" tests="12" time="0.211" timestamp="2012-04-23T04:26:19">
+  <properties />
+  <testcase classname="auctionhaus.ListingTests" name="testBidBidderNonNullOK" time="0.065" />
+  <testcase classname="auctionhaus.ListingTests" name="testRequiredListingFieldsMissingCauseError" time="0.013" />
+  <testcase classname="auctionhaus.ListingTests" name="testRequiredListingFieldsOK" time="0.012" />
+  <testcase classname="auctionhaus.ListingTests" name="testOptionalListingDescriptionFieldOK" time="0.012" />
+  <testcase classname="auctionhaus.ListingTests" name="testListingSellerNullCausesError" time="0.014" />
+  <testcase classname="auctionhaus.ListingTests" name="testListingDescriptionFieldOK" time="0.011" />
+  <testcase classname="auctionhaus.ListingTests" name="testListingDescriptionFieldOversizeError" time="0.013" />
+  <testcase classname="auctionhaus.ListingTests" name="testListingEndDateTimeInFutureOK" time="0.012" />
+  <testcase classname="auctionhaus.ListingTests" name="testListingEndDateTimeInPastCausesError" time="0.015" />
+  <testcase classname="auctionhaus.ListingTests" name="testListingNameFieldOK" time="0.013" />
+  <testcase classname="auctionhaus.ListingTests" name="testListingNameFieldOversizeErrors" time="0.013" />
+  <testcase classname="auctionhaus.ListingTests" name="testOptionalWinnerFieldOK" time="0.012" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[--Output from testBidBidderNonNullOK--
+--Output from testRequiredListingFieldsMissingCauseError--
+--Output from testRequiredListingFieldsOK--
+--Output from testOptionalListingDescriptionFieldOK--
+--Output from testListingSellerNullCausesError--
+--Output from testListingDescriptionFieldOK--
+--Output from testListingDescriptionFieldOversizeError--
+--Output from testListingEndDateTimeInFutureOK--
+--Output from testListingEndDateTimeInPastCausesError--
+--Output from testListingNameFieldOK--
+--Output from testListingNameFieldOversizeErrors--
+--Output from testOptionalWinnerFieldOK--
+]]></system-err>
+</testsuite>

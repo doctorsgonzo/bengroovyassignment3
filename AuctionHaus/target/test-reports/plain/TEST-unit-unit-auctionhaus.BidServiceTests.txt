@@ -1,0 +1,11 @@
+Testsuite: auctionhaus.BidServiceTests
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0.225 sec
+------------- Standard Error -----------------
+--Output from testBidCreateFailsWithoutValidParameters--
+--Output from testBidCreateSucceedsWithValidParameters--
+--Output from testBidCreateFailsWithExpiredListing--
+------------- ---------------- ---------------
+
+Testcase: testBidCreateFailsWithoutValidParameters took 0.11 sec
+Testcase: testBidCreateSucceedsWithValidParameters took 0.024 sec
+Testcase: testBidCreateFailsWithExpiredListing took 0.018 sec

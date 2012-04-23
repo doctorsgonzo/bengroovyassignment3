@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Hennepins-MacBook-Pro.local" name="auctionhaus.ListingControllerTests" tests="8" time="0.617" timestamp="2012-04-23T04:26:18">
+  <properties />
+  <testcase classname="auctionhaus.ListingControllerTests" name="testList" time="0.193" />
+  <testcase classname="auctionhaus.ListingControllerTests" name="testIndex" time="0.059" />
+  <testcase classname="auctionhaus.ListingControllerTests" name="testCreate" time="0.039" />
+  <testcase classname="auctionhaus.ListingControllerTests" name="testSave" time="0.065" />
+  <testcase classname="auctionhaus.ListingControllerTests" name="testShow" time="0.047" />
+  <testcase classname="auctionhaus.ListingControllerTests" name="testEdit" time="0.044" />
+  <testcase classname="auctionhaus.ListingControllerTests" name="testUpdate" time="0.057" />
+  <testcase classname="auctionhaus.ListingControllerTests" name="testDelete" time="0.051" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[--Output from testList--
+--Output from testIndex--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+</testsuite>

@@ -1,0 +1,5 @@
+--Output from testCustomerNullFieldsCauseError--
+--Output from testCustomerNonNullFieldsOK--
+--Output from testCustomerEmailOK--
+--Output from testCustomerEmailError--
+--Output from testCustomerPasswordOK--

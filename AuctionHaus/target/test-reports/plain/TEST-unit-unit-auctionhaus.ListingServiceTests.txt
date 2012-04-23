@@ -1,0 +1,9 @@
+Testsuite: auctionhaus.ListingServiceTests
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.136 sec
+------------- Standard Error -----------------
+--Output from testCustomerCreateFailsWithoutValidParameters--
+--Output from testCustomerCreateSucceedsWithValidParameters--
+------------- ---------------- ---------------
+
+Testcase: testCustomerCreateFailsWithoutValidParameters took 0.069 sec
+Testcase: testCustomerCreateSucceedsWithValidParameters took 0.018 sec

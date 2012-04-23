@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Hennepins-MacBook-Pro.local" name="auctionhaus.ListingServiceTests" tests="2" time="0.136" timestamp="2012-04-23T04:26:18">
+  <properties />
+  <testcase classname="auctionhaus.ListingServiceTests" name="testCustomerCreateFailsWithoutValidParameters" time="0.069" />
+  <testcase classname="auctionhaus.ListingServiceTests" name="testCustomerCreateSucceedsWithValidParameters" time="0.018" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[--Output from testCustomerCreateFailsWithoutValidParameters--
+--Output from testCustomerCreateSucceedsWithValidParameters--
+]]></system-err>
+</testsuite>
